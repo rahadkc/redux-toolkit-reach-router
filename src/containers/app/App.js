@@ -24,11 +24,12 @@ class App extends Component {
           <AsyncPage page="home/Home" path="/" />
           <AsyncPage page="counter/Counter" path="counter" />
           <AsyncPage page="login/Login" path="login" />
+          <AsyncPage page="bug/Bug" path="bug" />
           <AsyncPage 
             isAuth={isAuth} 
             page="misc/PrivateRoute"
-            path="about" 
-            component={<AsyncPage page="about/About"/>} 
+            path="dashboard" 
+            component={<AsyncPage page="dashboard/Dashboard"/>} 
           />
           <AsyncPage page="misc/NotFound" default />
         </Router>

@@ -8,7 +8,8 @@ const Header = () => {
       <img src={logo} className="App-logo" alt="logo" />
       <Link to="/">Home</Link>
       <Link to="counter">Counter</Link>
-      <Link to="about">About- Private Route</Link>
+      <Link to="dashboard">Dashboard - Private</Link>
+      <Link to="bug">Bug</Link>
       <Link to="login">Login</Link>
     </header>
   )
